@@ -1,0 +1,32 @@
+server:
+  port: 4151
+  servlet:
+    context-path: /mac
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.2.6\JLOBU;DatabaseName=JLOBU
+    username: JLObu
+    password: admin123123
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 1
+    testWhileIdle: true
+    testOnBorrow: true
+    testOnReturn: true
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+#配置日志
+logging:
+  config: classpath:logback-spring.xml
+#映射mybatis
+mybatis:
+  # 指定全局配置文件位置
+  #config-location: classpath:mybatis/mybatis.cfg.xml  
+  #mybatis所在路径
+  mapper-locations: classpath:mybatis/*/*.xml
+  type-aliases-package: com.cn.juli.*.mapper   
