@@ -1,5 +1,5 @@
 server:
-  port: 4151
+  port: 4152
   servlet:
     context-path: /mac
 spring:
