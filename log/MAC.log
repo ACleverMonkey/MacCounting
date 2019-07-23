@@ -1,48 +1,10 @@
-2019-06-25 15:47:17,970 INFO (StartupInfoLogger.java:50)- Starting MacCountingApplication on BSTRN0UX7ZW7H0O with PID 8332 (F:\2018_1\MacCounting\target\classes started by Administrator in F:\2018_1\MacCounting)
-2019-06-25 15:47:17,986 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019-06-25 15:47:17,986 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
-2019-06-25 15:47:22,415 INFO (StartupInfoLogger.java:59)- Started MacCountingApplication in 5.366 seconds (JVM running for 6.1)
-2019-06-25 15:49:15,287 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2019-06-25 15:49:16,002 INFO (PoolBase.java:525)- HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
-2019-06-25 15:49:16,059 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2019-06-25 15:49:16,069 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select bt_secret from pr_inpection_bt_secret where obu_surface_number=? 
-2019-06-25 15:49:16,102 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4701021723932001(String)
-2019-06-25 15:49:16,125 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
-2019-06-25 15:49:48,521 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select bt_secret from pr_inpection_bt_secret where obu_surface_number=? 
-2019-06-25 15:49:48,522 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3701021723932001(String)
-2019-06-25 15:49:48,538 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2019-06-25 15:49:48,603 ERROR (MacServiceImpl.java:50)- 异常信息:java.lang.NullPointerExceptionnull
-2019-06-25 15:50:20,562 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select bt_secret from pr_inpection_bt_secret where obu_surface_number=? 
-2019-06-25 15:50:20,563 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3701021723932001(String)
-2019-06-25 15:50:20,574 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2019-06-25 15:51:30,876 INFO (StartupInfoLogger.java:50)- Starting MacCountingApplication on BSTRN0UX7ZW7H0O with PID 11804 (F:\2018_1\MacCounting\target\classes started by Administrator in F:\2018_1\MacCounting)
-2019-06-25 15:51:30,882 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019-06-25 15:51:30,885 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
-2019-06-25 15:51:35,473 INFO (StartupInfoLogger.java:59)- Started MacCountingApplication in 5.56 seconds (JVM running for 6.316)
-2019-06-25 15:51:44,250 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2019-06-25 15:51:44,929 INFO (PoolBase.java:525)- HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
-2019-06-25 15:51:44,990 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2019-06-25 15:51:44,998 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select bt_secret from pr_inpection_bt_secret where obu_surface_number=? 
-2019-06-25 15:51:45,036 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3701021723932001(String)
-2019-06-25 15:51:45,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2019-06-25 15:52:02,700 INFO (StartupInfoLogger.java:50)- Starting MacCountingApplication on BSTRN0UX7ZW7H0O with PID 12216 (F:\2018_1\MacCounting\target\classes started by Administrator in F:\2018_1\MacCounting)
-2019-06-25 15:52:02,707 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019-06-25 15:52:02,709 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
-2019-06-25 15:52:07,249 INFO (StartupInfoLogger.java:59)- Started MacCountingApplication in 5.437 seconds (JVM running for 6.172)
-2019-06-25 15:52:15,869 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2019-06-25 15:52:16,499 INFO (PoolBase.java:525)- HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
-2019-06-25 15:52:16,550 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2019-06-25 15:52:16,559 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select bt_secret from pr_inpection_bt_secret where obu_surface_number=? 
-2019-06-25 15:52:16,591 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3701021723932001(String)
-2019-06-25 15:52:16,629 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2019-06-25 15:58:31,788 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select bt_secret from pr_inpection_bt_secret where obu_surface_number=? 
-2019-06-25 15:58:31,789 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3701021723932001(String)
-2019-06-25 15:58:31,793 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2019-06-25 16:00:13,657 INFO (StartupInfoLogger.java:50)- Starting MacCountingApplication on BSTRN0UX7ZW7H0O with PID 18212 (F:\2018_1\MacCounting\target\classes started by Administrator in F:\2018_1\MacCounting)
-2019-06-25 16:00:13,664 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019-06-25 16:00:13,665 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
-2019-06-25 16:00:18,244 INFO (StartupInfoLogger.java:59)- Started MacCountingApplication in 5.509 seconds (JVM running for 6.284)
-2019-06-25 16:03:53,030 INFO (StartupInfoLogger.java:50)- Starting MacCountingApplication on BSTRN0UX7ZW7H0O with PID 13684 (F:\2018_1\MacCounting\target\classes started by Administrator in F:\2018_1\MacCounting)
-2019-06-25 16:03:53,037 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019-06-25 16:03:53,038 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
-2019-06-25 16:03:57,977 INFO (StartupInfoLogger.java:59)- Started MacCountingApplication in 5.884 seconds (JVM running for 6.659)
+2019-07-23 08:37:41,822 INFO (StartupInfoLogger.java:50)- Starting MacCountingApplication on BSTRN0UX7ZW7H0O with PID 8036 (F:\2018_1\MacCounting\target\classes started by Administrator in F:\2018_1\MacCounting)
+2019-07-23 08:37:41,853 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-23 08:37:41,853 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-23 08:37:46,909 INFO (StartupInfoLogger.java:59)- Started MacCountingApplication in 6.274 seconds (JVM running for 7.732)
+2019-07-23 08:50:47,569 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2019-07-23 08:50:47,760 INFO (PoolBase.java:525)- HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-07-23 08:50:47,791 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2019-07-23 08:50:47,806 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT city_id, city_name, obu_esam_struct, obu_secret_version FROM pr_city ORDER BY city_name COLLATE Chinese_PRC_CS_AS_KS_WS 
+2019-07-23 08:50:47,838 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-07-23 08:50:47,881 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 74

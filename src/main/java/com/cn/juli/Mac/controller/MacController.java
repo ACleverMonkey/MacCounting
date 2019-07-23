@@ -15,7 +15,7 @@ public class MacController {
 	MacService macService;
 
 	@RequestMapping(value = "/gerMac", method = RequestMethod.POST)
-	public JSONObject getMac(String obuContractNum,String rand) {
-		return macService.getMac(obuContractNum,rand);
+	public JSONObject getMac(String obuContractNum, String rand) {
+		return macService.getMac(obuContractNum, rand);
 	}
 }
